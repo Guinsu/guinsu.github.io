@@ -1,761 +1,909 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>insuKim Portfolio</title>
+        <meta content="" name="description" />
+        <meta content="" name="keywords" />
 
-  <title>insuKim Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+        <!-- Favicons -->
+        <link href="assets/img/insulogo.png" rel="icon" type="image/x-icon" />
+        <link href="assets/img/insulogo.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/insulogo.png" rel="icon" type="image/x-icon">
-  <link href="assets/img/insulogo.png" rel="apple-touch-icon">
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+        <!-- Vendor CSS Files -->
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+        <!-- Template Main CSS File -->
+        <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- =======================================================
+        <!-- =======================================================
   * Template Name: MyResume
   * Updated: Jan 09 2024 with Bootstrap v5.3.2
   * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+    </head>
 
-<body>
+    <body>
+        <!-- ======= Mobile nav toggle button ======= -->
+        <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+        <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+        <!-- ======= Header ======= -->
+        <header id="header" class="d-flex flex-column justify-content-center">
+            /
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">/
-
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/kiminsu.jpg" class="img-fluid" alt="" style="width:50%;">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Back End & Web Developer</h3>
-			<br>
-            <div class="row">
-              <div class="col-lg-6">
+            <nav id="navbar" class="navbar nav-menu">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>이름:</strong> <span>김인수</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>생년월일:</strong> <span>1996/09/02</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>전공:</strong> <span>기계공학과</span></li>
+                    <li>
+                        <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a>
+                    </li>
+                    <li>
+                        <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
+                    </li>
                 </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>email:</strong> <span>loud.danger@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>자격:</strong> <span style="color:#0563bb; font-size:20px; font-weight:bold;">정보처리기사(필기합격), SQLD</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>github:</strong> <a href="https://github.com/Guinsu" target="_blank">https://github.com/Guinsu</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+            </nav>
+            <!-- .nav-menu -->
+        </header>
+        <!-- End Header -->
 
-      </div>
-    </section><!-- End About Section -->
+        <main id="main">
+            <!-- ======= About Section ======= -->
+            <section id="about" class="about">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>About</h2>
+                    </div>
 
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container" data-aos="fade-up">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="assets/img/kiminsu.jpg" class="img-fluid" alt="" style="width: 50%" />
+                        </div>
+                        <div class="col-lg-8 pt-4 pt-lg-0 content">
+                            <h3>Back End & Web Developer</h3>
+                            <br />
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>이름:</strong> <span>김인수</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>생년월일:</strong> <span>1996/09/02</span></li>
+                                        <li><i class="bi bi-chevron-right"></i> <strong>전공:</strong> <span>기계공학과</span></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <i class="bi bi-chevron-right"></i> <strong>email:</strong> <span>loud.danger@gmail.com</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-chevron-right"></i> <strong>자격:</strong>
+                                            <span style="color: #0563bb; font-size: 20px; font-weight: bold"
+                                                >정보처리기사(필기합격), SQLD</span
+                                            >
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-chevron-right"></i> <strong>github:</strong>
+                                            <a href="https://github.com/Guinsu" target="_blank">https://github.com/Guinsu</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End About Section -->
 
-        <div class="section-title">
-          <h2>Skills</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="fade-up">
-            <h4 class="title">Frontend</h4>
-              <p class="description">
-				<i class="fab fa-html5" style="color: #e34c26;"></i> HTML<br>
-				<i class="fab fa-css3-alt" style="color: #264de4;"></i> CSS<br>
-				<i class="fab fa-js" style="color: #f0db4f;"></i> JavaScript (jQuery)<br>
-				<i class="fab fa-bootstrap" style="color: #563d7c;"></i> Bootstrap
-			  </p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-            <h4 class="title">Backend</h4>
-              <p class="description">
-				<i class="fab fa-java" style="color: #007396;"></i> Java<br>
-				<i class="fas fa-file-code" style="color: #f89820;"></i> JSP/JSTL<br>
-				<i class="fas fa-leaf" style="color: #6db33f;"></i> Spring<br>
-				<i class="fas fa-seedling" style="color: #6db33f;"></i> Spring Boot<br>
-				<i class="fas fa-database" style="color: #4db33d;"></i> MyBatis<br>
-				<i class="fas fa-server" style="color: #68a063;"></i> Express.js<br>
-				<i class="fab fa-node-js" style="color: #4db33d;"></i> Node.js
-			  </p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-            <h4 class="title">Database</h4>
-              <p class="description">
-				<i class="fas fa-database" style="color: #f29111;"></i> MySQL<br>
-				<i class="fas fa-database" style="color: #f80000;"></i> Oracle<br>
-				<i class="fas fa-database" style="color: #1f305e;"></i> MariaDB<br>
-				<i class="fas fa-database" style="color: #336791;"></i> PostgreSQL<br>
-				<i class="fas fa-database" style="color: #47a248;"></i> MongoDB<br>
-				<i class="fas fa-database" style="color: #dc382d;"></i> Redis<br>
-				<i class="fas fa-database" style="color: #9c433c;"></i> H2<br>
-			  </p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-            <h4 class="title">Tool</h4>
-              <p class="description">
-				<i class="fas fa-code" style="color: #2c3e50;"></i> Eclipse<br>
-				<i class="fas fa-tools" style="color: #6db33f;"></i> Spring Tool Suite 4<br>
-				<i class="fas fa-code" style="color: #000000;"></i> IntelliJ<br>
-				<i class="fas fa-code" style="color: #007acc;"></i> VSCode<br>
-				<i class="fas fa-database" style="color: #4db33d;"></i> HeidiSQL<br>
-				<i class="fab fa-aws" style="color: #ff9900;"></i> AWS(EC2, S3, IAM, Lightsail)<br>
-				<i class="fab fa-github" style="color: #181717;"></i> GitHub
-			  </p>
-          </div>
-          </div>
-        </div>
-    </section><!-- End Skills Section -->
+            <!-- ======= Skills Section ======= -->
+            <section id="skills" class="skills section-bg">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Skills</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="fade-up">
+                            <h4 class="title">Frontend</h4>
+                            <p class="description">
+                                <i class="fab fa-html5" style="color: #e34c26"></i> HTML<br />
+                                <i class="fab fa-css3-alt" style="color: #264de4"></i> CSS<br />
+                                <i class="fab fa-js" style="color: #f0db4f"></i> JavaScript (jQuery)<br />
+                                <i class="fab fa-bootstrap" style="color: #563d7c"></i> Bootstrap
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                            <h4 class="title">Backend</h4>
+                            <p class="description">
+                                <i class="fab fa-java" style="color: #007396"></i> Java<br />
+                                <i class="fas fa-file-code" style="color: #f89820"></i> JSP/JSTL<br />
+                                <i class="fas fa-leaf" style="color: #6db33f"></i> Spring<br />
+                                <i class="fas fa-seedling" style="color: #6db33f"></i> Spring Boot<br />
+                                <i class="fas fa-database" style="color: #4db33d"></i> MyBatis<br />
+                                <i class="fas fa-server" style="color: #68a063"></i> Express.js<br />
+                                <i class="fab fa-node-js" style="color: #4db33d"></i> Node.js
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                            <h4 class="title">Database</h4>
+                            <p class="description">
+                                <i class="fas fa-database" style="color: #f29111"></i> MySQL<br />
+                                <i class="fas fa-database" style="color: #f80000"></i> Oracle<br />
+                                <i class="fas fa-database" style="color: #1f305e"></i> MariaDB<br />
+                                <i class="fas fa-database" style="color: #336791"></i> PostgreSQL<br />
+                                <i class="fas fa-database" style="color: #47a248"></i> MongoDB<br />
+                                <i class="fas fa-database" style="color: #dc382d"></i> Redis<br />
+                                <i class="fas fa-database" style="color: #9c433c"></i> H2<br />
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                            <h4 class="title">Tool</h4>
+                            <p class="description">
+                                <i class="fas fa-code" style="color: #2c3e50"></i> Eclipse<br />
+                                <i class="fas fa-tools" style="color: #6db33f"></i> Spring Tool Suite 4<br />
+                                <i class="fas fa-code" style="color: #000000"></i> IntelliJ<br />
+                                <i class="fas fa-code" style="color: #007acc"></i> VSCode<br />
+                                <i class="fas fa-database" style="color: #4db33d"></i> HeidiSQL<br />
+                                <i class="fab fa-aws" style="color: #ff9900"></i> AWS(EC2, S3, IAM, Lightsail)<br />
+                                <i class="fab fa-github" style="color: #181717"></i> GitHub
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Skills Section -->
 
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container" data-aos="fade-up">
+            <!-- ======= Resume Section ======= -->
+            <section id="resume" class="resume">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Resume</h2>
+                    </div>
 
-        <div class="section-title">
-          <h2>Resume</h2>
-        </div>
+                    <div class="row">
+                        <!--구디아카데미 후기-->
+                        <div class="col-lg-6">
+                            <h3 class="resume-title">교육</h3>
+                            <div class="resume-item pb-0">
+                                <h4>구디아카데미 클라우드 활용 자바개발자 양성과정</h4>
+                                <h5>2023-02-26 ~ 2024-08-23 &nbsp;&nbsp; 119일 &nbsp;/ 946시간</h5>
+                                <ul>
+                                    <li>
+                                        <span>1개월</span>
+                                        <ul>
+                                            <li>HTML, CSS, Java의 기본 문법을 배우고 JSP를 통해 CRUD 실습을 진행했습니다.</li>
+                                            <li>MariaDB 데이터베이스를 사용하여 SQL 쿼리 작성법을 익혔습니다.</li>
+                                            <li>IDE인 Eclipse와 데이터베이스 관리도구인 HeidiSQL의 사용법을 익혔습니다.</li>
+                                            <li>SQL 및 Java Calendar API를 사용하여 다이어리를 제작했습니다.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span>2개월</span>
+                                        <ul>
+                                            <li>CDN을 사용한 BootStrap을 적용하는 방법에 대해 학습했습니다.</li>
+                                            <li>OracleDB로 계층형 쿼리, group by 함수 등에 대해 학습했습니다</li>
+                                            <li>FileUpload 라이브러리를 사용하여 파일을 업로드하고 저장하는 방법을 배웠습니다.</li>
+                                            <li>Session 관리를 배워 login 화면을 추가한 게시판을 만들어봤습니다.</li>
+                                            <li>HTML, CSS, JSP, MariaDB를 활용한 다이어리 개인 프로젝트를 진행하였습니다.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span>3개월</span>
+                                        <ul>
+                                            <li>JavaScript,JQuery를 활용한 이벤트 처리를 배웠습니다.</li>
+                                            <li>Ajax와 JSON을 사용하여 데이터를 전달하는 방법을 학습했습니다.</li>
+                                            <li>Model1구조의 쇼핑몰 개인 프로젝트를 진행하였습니다.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span>4개월</span>
+                                        <ul>
+                                            <li>Spring Framework의 사용법 및 MVC 구조에 대해 학습했습니다.</li>
+                                            <li>Spring Boot, MyBatis를 이용하여 CRUD 프로젝트 구현을 실습했습니다.</li>
+                                            <li>Model2구조의 팀 프로젝트를 진행했습니다.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span>5개월 ~ 6개월</span>
+                                        <ul>
+                                            <li>AWS를 사용하여 클라우드에 프로젝트 배포 과정을 배웠습니다.</li>
+                                            <li>
+                                                현재까지 배운 내용을 활용하여 Spring Boot 기반 MVC 패턴으로 실버타운 그룹웨어 프로젝트를
+                                                진행 완료했습니다.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-        <div class="row">
-		
-			
-			<!--구디아카데미 후기-->
-			<div class="col-lg-6">
-				<h3 class="resume-title">교육</h3>
-				<div class="resume-item pb-0">
-					<h4>구디아카데미 클라우드 활용 자바개발자 양성과정</h4>
-					<h5>2023-02-26 ~ 2024-08-23  &nbsp;&nbsp; 119일 &nbsp;/ 946시간</h5>
-					<ul>
-						<li>
-							<span>1개월</span>
-							<ul>
-								<li>HTML, CSS, Java의 기본 문법을 배우고 JSP를 통해 CRUD 실습을 진행했습니다.</li>
-								<li>MariaDB 데이터베이스를 사용하여 SQL 쿼리 작성법을 익혔습니다.</li>
-								<li>IDE인 Eclipse와 데이터베이스 관리도구인 HeidiSQL의 사용법을 익혔습니다.</li>
-								<li>SQL 및 Java Calendar API를 사용하여 다이어리를 제작했습니다.</li>
-							</ul>
-						</li>
-						<li>
-							<span>2개월</span>
-							<ul>
-								<li>CDN을 사용한 BootStrap을 적용하는 방법에 대해 학습했습니다.</li>
-								<li>OracleDB로 계층형 쿼리, group by 함수 등에 대해 학습했습니다</li>
-								<li>FileUpload 라이브러리를 사용하여 파일을 업로드하고 저장하는 방법을 배웠습니다.</li>
-								<li>Session 관리를 배워 login 화면을 추가한 게시판을 만들어봤습니다.</li>
-								<li>HTML, CSS, JSP, MariaDB를 활용한 다이어리 개인 프로젝트를 진행하였습니다.</li>
-							</ul>
-						</li>
-						<li>
-							<span>3개월</span>
-							<ul>
-								<li>JavaScript,JQuery를 활용한 이벤트 처리를 배웠습니다.</li>
-								<li>Ajax와 JSON을 사용하여 데이터를 전달하는 방법을 학습했습니다.</li>
-								<li>Model1구조의 쇼핑몰 개인 프로젝트를 진행하였습니다.</li>
-							</ul>
-						</li>
-						<li>
-							<span>4개월</span>
-							<ul>
-								<li>Spring Framework의 사용법 및 MVC 구조에 대해 학습했습니다.</li>
-								<li>Spring Boot, MyBatis를 이용하여 CRUD 프로젝트 구현을 실습했습니다.</li>
-								<li>Model2구조의 팀 프로젝트를 진행했습니다.</li>
-							</ul>
-						</li>
-						<li>
-						<span>5개월 ~ 6개월</span>
-						<ul>
-							<li>AWS를 사용하여 클라우드에 프로젝트 배포 과정을 배웠습니다.</li>
-							<li>현재까지 배운 내용을 활용하여 Spring Boot 기반 MVC 패턴으로 실버타운 그룹웨어 프로젝트를 진행 완료했습니다.</li>
-						</ul>
-						</li>
-					</ul>
-				</div>
-          	</div>
-          
-			<!--학력-->
-			<div class="col-lg-6">
-				<h3 class="resume-title">학력</h3>
-				<div class="resume-item">
-					<h4>학점은행제</h4>
-					<h5>2024 ~ </h5>
-					<p>컴퓨터공학과</p>
-				</div>
+                        <!--학력-->
+                        <div class="col-lg-6">
+                            <h3 class="resume-title">학력</h3>
+                            <div class="resume-item">
+                                <h4>학점은행제</h4>
+                                <h5>2024 ~</h5>
+                                <p>컴퓨터공학과</p>
+                            </div>
 
-				<div class="resume-item">
-					<h4>신안산대학교</h4>
-					<h5>2018 - 2020</h5>
-					<p>기계공학과</p>
-				</div>
+                            <div class="resume-item">
+                                <h4>신안산대학교</h4>
+                                <h5>2018 - 2020</h5>
+                                <p>기계공학과</p>
+                            </div>
 
-				<div class="resume-item">
-					<h4>평택기계공업고등학교</h4>
-					<h5>2013 - 2015</h5>
-					<p>자동차기계과</p>
-				</div>
-			</div>
+                            <div class="resume-item">
+                                <h4>평택기계공업고등학교</h4>
+                                <h5>2013 - 2015</h5>
+                                <p>자동차기계과</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Resume Section -->
 
-        </div>
-      </div>
-    </section><!-- End Resume Section -->
+            <!-- ======= Portfolio Section ======= -->
+            <section id="portfolio" class="portfolio section-bg">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Portfolio</h2>
+                        <p>프로젝트를 최신순으로 구성했습니다. 탭을 누르면 프로젝트 내용을 확인할 수 있습니다.</p>
+                    </div>
 
-	    <!-- ======= Portfolio Section ======= -->
-	    <section id="portfolio" class="portfolio section-bg">
-	      <div class="container" data-aos="fade-up">
-	
-	        <div class="section-title">
-	          <h2>Portfolio</h2>
-	          <p>프로젝트를 최신순으로 구성했습니다. 탭을 누르면 프로젝트 내용을 확인할 수 있습니다.</p>
-	        </div>
-	
-	        <div class="row">
-	          <div class="col-lg-12 justify-content-center" data-aos="fade-up" data-aos-delay="100">
-	            <ul id="portfolio-flters">
-	              <li data-filter="*" class="filter-active">All</li>
-				  <li data-filter=".filter-groupware">실버타운 그룹웨어</li>
-	              <li data-filter=".filter-booking">종합동물병원 ERP</li>
-	              <li data-filter=".filter-shop">쇼핑몰</li>
-	              <li data-filter=".filter-diary">다이어리</li>
-				  <li data-filter=".filter-peti">동물성격검사</li>
-	            </ul>
-	          </div>
-	        </div>
-		 	
-		 	<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-		 		
-				<!-- 실버타운 그룹웨어 (topaz)-->
-				<div class="container portfolio-item filter-groupware" style="margin-bottom: 70px;">
-			        <div class="row gy-4">
-			          <div class="col-lg-6">
-			            <div class="portfolio-wrap">
+                    <div class="row">
+                        <div class="col-lg-12 justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                            <ul id="portfolio-flters">
+                                <li data-filter="*" class="filter-active">All</li>
+                                <li data-filter=".filter-groupware">실버타운 그룹웨어</li>
+                                <li data-filter=".filter-booking">종합동물병원 ERP</li>
+                                <li data-filter=".filter-shop">쇼핑몰</li>
+                                <li data-filter=".filter-diary">다이어리</li>
+                                <li data-filter=".filter-peti">동물성격검사</li>
+                            </ul>
+                        </div>
+                    </div>
 
-							<!--사진 저장-->
-							<img src="/assets/img/portfolio/topaz메인.png" class="img-fluid" alt="" style="height: 400px; width: 100%;">
-			              	<img src="/assets/img/portfolio/topaz쪽지.png" class="img-fluid" alt="" style="height: 400px; width: 100%;">			              	
-			            	<img src="/assets/img/portfolio/topaz연월차.png" class="img-fluid" alt="" style="height: 400px; width: 100%;">      	
-			              	
-			              	<div class="portfolio-info">
-								<a href="http://13.124.239.48/topaz/login" target="_blank" title="Portfolio Details" style="display: block; width: 100%; height: 100%;">
-									<i class="bx bx-link"></i>
-								</a>
-		              		</div>
-		             	 </div>
-			          </div>
-			
-			          <div class="col-lg-4">
-			            <div class="portfolio-info">
-			              <h3><strong style="font-size: 35px">1.</strong>&nbsp;실버타운 그룹웨어</h3>
-			            </div>
-			            <div class="portfolio-description">
-			                <p><b>Spring MVC 구조</b></p>
-							<p>파이널 프로젝트로 Spring Boot를 사용하여 MVC 아키텍쳐 구조로 진행했습니다.</p>
-			              	<hr> 
-			              	<div style="margin-bottom: 25px">
-								<a href="http://13.124.239.48/topaz/login" class="btn btn-info" target="_blank">Web</a>
-								<a href="https://github.com/Guinsu/GDJ80-TeamB-topaz" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
-								<button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/GDJ80_Team B_ERD다이어그램.png')">ERD</button>
-								<button type="button" class="btn btn-warning" onclick="window.open('assets/document/파이널프로젝트문서URL.pdf')">document</button>
-			              	</div>
-			              	<b>개발 환경</b><br>
-			                <ul>
-								<li><b>Frameworks:</b> Spring Boot</li>
-			                	<li><b>Language:</b> HTML5, CSS3, JAVA, SQL, JavaScript</li>
-								<li><b>Library:</b> jQuery</li>
-								<li><b>Database:</b> MariaDB</li>
-								<li><b>WAS:</b> Apache Tomcat10</li>
-								<li><b>OS:</b> Windows 11</li>
-								<li><b>Tool:</b> Eclipse, HeidiSQL</li>
-			                </ul>
-			                
-			                <hr>
-			                <b>서비스 환경</b><br>
-			                <ul>
-			                	<li><b>Cloud :</b>AWS(Lightsail)</li>
-								<li><b>Database:</b> MariaDB</li>
-								<li><b>WAS:</b> Apache Tomcat10</li>
-			                </ul>
-			                
-			                <hr>
-			                <b>프로젝트 내용</b><br>
-			                <ul>
-			                	<li>기간 : 2024.06.24 ~ 2024.07.26(5주)</li>
-			                	<li>인원 : 4명</li>
-			                	<li>
-			                		내용 : 고령화 사회로 인해 실버타운의 수가 증가하면서, 직원들이 효과적으로 업무를 관리하고 협업할 수 있고 업무 효율성을 높이기 위한 그룹웨어 개발
-			                	</li>
-			                </ul>
-			                <hr>
-							<b>담당 기능</b><br>
-			                <ul>
-								<li>
-									<span>로그인 세션 유지</span>
-									<ul>
-										<li>Interceptor로 페이지 이동 시 로그인 상태 유지</li>
-									</ul>
-								</li>
-								<li style="margin-top: 10px;">
-									<span>직원관리</span>
-									<ul>
-										<li>직위/부서 선택 시 자동 사원번호 생성</li>
-										<li>비밀번호 수정 시 기존 비밀번호와 다른 비밀번호로만 변경 가능</li>
-										<li>부서명, 직위, 사원번호로 직원 정보 검색 및 조회</li>
-										<li>퇴사 직원의 정보를 논리적으로 삭제</li>
-									</ul>
-								</li>
-								<li style="margin-top: 10px;">
-									<span>쪽지관리</span>
-									<ul>
-										<li>직원 검색 후 쪽지 전송 및 WebSocket을 이용한 실시간 알람 기능 구현</li>
-										<li>받은 쪽지, 보낸 쪽지 목록 조회 및 상세 열람</li>
-										<li>삭제 시 실제 데이터는 보존, 인터페이스에서만 비표시</li>
-									</ul>
-								</li>
-								<li style="margin-top: 10px;">
-									<span>직원 출퇴근 관리</span>
-									<ul>
-										<li>출퇴근 버튼 클릭 시 자동으로 시각 기록 및 상태 업데이트</li>
-										<li>관리자의 직원 출퇴근 기록 조회 기능 구현</li>
-									</ul>
-								</li>
-								<li style="margin-top: 10px;">
-									<span>공지사항</span>
-									<ul>
-										<li>등급/종류 선택, 첨부파일 추가 기능 구현</li>
-										<li>공지사항 필독, 이벤트, 일반으로 조회</li>
-										<li>제목, 내용, 첨부파일 수정, 삭제 가능</li>
-									</ul>
-								</li>
-			                </ul>
-			            </div>
-			          </div>
-			        </div>
-			      </div>
+                    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                        <!-- 실버타운 그룹웨어 (topaz)-->
+                        <div class="container portfolio-item filter-groupware" style="margin-bottom: 70px">
+                            <div class="row gy-4">
+                                <div class="col-lg-6">
+                                    <div class="portfolio-wrap">
+                                        <!--사진 저장-->
+                                        <img
+                                            src="/assets/img/portfolio/topaz메인.png"
+                                            class="img-fluid"
+                                            alt=""
+                                            style="height: 400px; width: 100%"
+                                        />
+                                        <img
+                                            src="/assets/img/portfolio/topaz쪽지.png"
+                                            class="img-fluid"
+                                            alt=""
+                                            style="height: 400px; width: 100%"
+                                        />
+                                        <img
+                                            src="/assets/img/portfolio/topaz연월차.png"
+                                            class="img-fluid"
+                                            alt=""
+                                            style="height: 400px; width: 100%"
+                                        />
 
-				
-				<!-- 종합동물병원 ERP (atti)-->
-			 	<div class="container portfolio-item filter-booking" style="margin-bottom: 70px;">
-			        <div class="row gy-4">
-			          <div class="col-lg-6">
-			            <div class="portfolio-wrap">
-							<!--사진 저장-->
-			              	<img src="/assets/img/portfolio/atti메인.png" class="img-fluid" alt="">
-			              	<img src="/assets/img/portfolio/atti직원등록.png" class="img-fluid" alt="">			              	
-			            	<img src="/assets/img/portfolio/atti직원관리.png" class="img-fluid" alt="">      	
-			              	
-			              	<div class="portfolio-info">
-			              		<a href="http://13.124.239.48/atti/view/loginForm.jsp" target="_blank" title="Portfolio Details" style="display: block; width: 100%; height: 100%;"><i class="bx bx-link"></i></a>
-		              		</div>
-		             	 </div>
-			          </div>
-			
-			          <div class="col-lg-4">
-			            <div class="portfolio-info">
-			              <h3><strong style="font-size: 35px">2.</strong>&nbsp;종합 동물병원 ERP</h3>
-			            </div>
-			            <div class="portfolio-description">
-			                <p><b>Model2 구조 </b></p>
-							<p>첫 팀 프로젝트로 JSP를 사용하여 model2 아키텍쳐 구조로 진행했습니다.</p>
-			              	<hr> 
-			              	<div style="margin-bottom: 25px">
-								<a href="http://13.124.239.48/atti/view/loginForm.jsp" class="btn btn-info" target="_blank">Web</a>
-								<a href="https://github.com/GDJ80-TeamC/semi-atti" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
-								<button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/GDJ80_teamC_ERD다이어그램.png')">ERD</button>
-								<a href="https://docs.google.com/spreadsheets/d/1DeBwBD5Q28pRl3URFegynNrOsLrvNWdGKIklqSJgjkA/edit?gid=0#gid=0" class="btn btn-warning">document</a>
+                                        <div class="portfolio-info">
+                                            <a
+                                                href="http://13.124.239.48/topaz/login"
+                                                target="_blank"
+                                                title="Portfolio Details"
+                                                style="display: block; width: 100%; height: 100%"
+                                            >
+                                                <i class="bx bx-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
 
-			              	</div>
-			              	<b>개발 환경</b><br>
-			                <ul>
-			                	<li><b>Language:</b> HTML5, CSS3, JAVA, SQL</li>
-								<li><b>Database:</b> MariaDB</li>
-								<li><b>WAS:</b> Apache Tomcat10</li>
-								<li><b>OS:</b> Windows 11</li>
-								<li><b>Tool:</b> Eclipse, HeidiSQL</li>
-			                </ul>
-			                
-			                <hr>
-			                <b>서비스 환경</b><br>
-			                <ul>
-			                	<li><b>Cloud :</b>AWS(Lightsail)</li>
-								<li><b>Database:</b> MariaDB</li>
-								<li><b>WAS:</b> Apache Tomcat10</li>
-			                </ul>
-			                
-			                <hr>
-			                <b>프로젝트 내용</b><br>
-			                <ul>
-			                	<li>기간 : 2024.04.29 ~ 2024.05.31(5주)</li>
-			                	<li>인원 : 4명</li>
-			                	<li>
-			                		내용 : 반려 동물 시장이 증가함에 따라 의료 서비스를 제공하는 동물 병원의 필요성이 높아져 종합 동물 병원의 ERP시스템 구현
-			                	</li>
-			                </ul>
-			                <hr>
-							<b>담당 기능</b><br>
-			                <ul>
-								<li>
-									<span>로그인 세션 유지</span>
-									<ul>
-										<li>Session을 사용하여 로그인 상태를 유지</li>
-										<li>페이지 로드 시 세션을 확인하여 로그인 상태 검증</li>
-									</ul>
-								</li>
-								<li style="margin-top: 10px;">
-									<span>직원관리</span>
-									<ul>
-										<li>신규 직원(의사/간호사) 등록 기능 구현</li>
-										<li>비밀번호 수정 시 기존 비밀번호와 다른 비밀번호로만 변경 가능하도록 설정</li>
-										<li>직원 이름으로 직원 정보 검색 및 조회 기능 구현</li>
-										<li>퇴사 직원의 정보를 논리적으로 삭제하여 데이터 보존</li>
-									</ul>
-								</li>
-								<li style="margin-top: 10px;">
-									<span>입원등록</span>
-									<ul>
-										<li>환자의 입원 시 입원 호실 등록(호실 입원 내용)</li>
-									</ul>
-								</li>
-			                </ul>
-			            </div>
-			          </div>
-			        </div>
-			      </div>
-			      
-		 		
-		 		  <!-- SHOP -->
-		 		  <div class="container portfolio-item filter-shop" style="margin-bottom: 70px;">
-			        <div class="row gy-4">
-			          <div class="col-lg-6">
-			            <div class="portfolio-wrap">
-				        	<img src="/assets/img/portfolio/shop메인.png" class="img-fluid" alt="" style="width: 100%; height: 350px;">
-				        	<img src="/assets/img/portfolio/shop관리자메인.png" class="img-fluid" alt="" style="width: 100%; height: 350px;">
-				        	<img src="/assets/img/portfolio/shop관리자결제.png" class="img-fluid" alt="" style="width: 100%; height: 350px;">
-			              	<div class="portfolio-info">
-			              		<a href="http://13.124.239.48/shop/index.jsp" target="_blank" title="Portfolio Details" style="display: block; width: 100%; height: 100%;">
-									<i class="bx bx-link"></i>
-								</a>
-		              		</div>
-		             	 </div>
-			          </div>
-			
-			          <div class="col-lg-4">
-			            <div class="portfolio-info">
-			              <h3><strong style="font-size: 35px">3.</strong>&nbsp;SHOP</h3>
-			            </div>
-			            <div class="portfolio-description">
-				            <p><b>Model1 구조 쇼핑몰</b></p>
-			              	<hr> 
-			              	<div style="margin-bottom: 25px">
-								<a href="http://13.124.239.48/shop/index.jsp" class="btn btn-info" target="_blank">Web</a>
-				                <a href="https://github.com/Guinsu/shop" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
-				                <button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/shop_ERD.png')">ERD</button>
+                                <div class="col-lg-4">
+                                    <div class="portfolio-info">
+                                        <h3><strong style="font-size: 35px">1.</strong>&nbsp;실버타운 그룹웨어</h3>
+                                    </div>
+                                    <div class="portfolio-description">
+                                        <br />
+                                        <p><b>Spring MVC 구조</b></p>
+                                        <hr />
+                                        <div style="margin-bottom: 25px">
+                                            <a href="http://13.124.239.48/topaz/login" class="btn btn-info" target="_blank">Web</a>
+                                            <a
+                                                href="https://github.com/Guinsu/GDJ80-TeamB-topaz"
+                                                class="btn btn-dark"
+                                                role="button"
+                                                style="text-decoration: none"
+                                                target="_blank"
+                                                >GitHub</a
+                                            >
+                                            <button
+                                                type="button"
+                                                class="btn btn-secondary"
+                                                onclick="window.open('assets/img/portfolio/GDJ80_Team B_ERD다이어그램.png')"
+                                            >
+                                                ERD
+                                            </button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-warning"
+                                                onclick="window.open('assets/document/파이널프로젝트문서URL.pdf')"
+                                            >
+                                                document
+                                            </button>
+                                        </div>
+                                        <b>개발 환경</b><br />
+                                        <ul>
+                                            <li><b>Frameworks:</b> Spring Boot</li>
+                                            <li><b>Language:</b> HTML5, CSS3, JAVA, SQL, JavaScript</li>
+                                            <li><b>Library:</b> jQuery</li>
+                                            <li><b>Database:</b> MariaDB</li>
+                                            <li><b>WAS:</b> Apache Tomcat10</li>
+                                            <li><b>OS:</b> Windows 11</li>
+                                            <li><b>Tool:</b> Eclipse, HeidiSQL</li>
+                                        </ul>
 
-			              	</div>
-			              	<b>개발 환경</b><br>
-			                	<li>MariaDB(10.5)
-			                	Apache Tomcat,
-			                	JDK(17.0.6),
-			                	Java, HTML, CSS, SQL
-			                	JDBC,Bootstrap, jQuery, HeidiSQL,
-			                	Git</li>
-			                
-			                <hr>
-			                <b>서비스 환경</b><br>
-			                <ul>
-			                	<li>Ubuntu(18.04.1)
-			                	MariaDB(10.5)
-			                	AWS</li>
-			                </ul>
-			                
-			                <hr>
-			                <b>프로젝트 내용</b><br>
-			                <ul>
-			                	<li>기간 : 2023.10.31 ~ 2023.11.17(3주)</li>
-			                	<li>인원 : 3명</li>
-			                	<li>
-			                		내용 : model1 구조, Git 수업 이후 수업 내용을 바탕으로 model1 구조의 쇼핑몰 구현.
-			                	</li>
-			                </ul>
-			                <hr>
-			                <b>담당 기능</b><br>
-			                <ul>
-			                	<li>
-			                		<span>상품관리</span>
-			                		<ul>
-								<li>session 기능을 통하여 직원 / 고객을 나눔</li>
-			                			<li>[고객] 상품 조회 기능</li></li>
-			                			<li>[고객] 상품 클릭 시 장바구니 추가 및 구매 기능</li>
-			                			<li>[고객] 구매 시 요약 데이터 출력 및 DB 값 추가</li>
-								<li>[고객] review 순, 구매순으로 베스트 상품 리스트 출력 기능</li>
-								<li>[고객] 베스트 상품 클릭 시 review 리스트 출력 기능</li>
-								<li>[직원] 상품 삭제, 추가 기능</li>
-			                		</ul>
-			                	</li>
-			                	<li>
-			                		<span>장바구니</span>
-			                		<ul>
-			                			<li>고객이 장바구니에 추가한 상품들 리스트 출력</li>
-			                			<li>jquery를 이용해 + / - 버튼 클릭 시 상품 수량 실시간 변화 기능</li>
-			                			<li>구매 시 장바구니에 있는 상품들 DB에 추가</li>
-			                		</ul>
-			                	</li>
-			                	<li>
-			                		<span>공지사항</span>
-			                		<ul>
-								<li>session 기능을 통하여 직원 / 고객을 나눔</li>
-			                			<li>[고객] 공지사항 조회 기능</li>
-			                			<li>[직원] 공지사항 삭제, 수정, 추가 기능 추가</li>
-			                		</ul>
-			                	</li>
-					    	<li>
-			                		<span>QnA</span>
-			                		<ul>
-								<li>session 기능을 통하여 직원 / 고객을 나눔</li>
-			                			<li>[고객] QnA 조회 기능</li>
-								<li>[고객] 질문 추가 기능</li>
-			                			<li>[직원] Qna 삭제, 수정, 추가 기능 추가</li>
-			                		</ul>
-			                	</li>
-			                </ul>
-	              		</div>
-			          </div>
-			        </div>
-				  </div>
+                                        <hr />
+                                        <b>서비스 환경</b><br />
+                                        <ul>
+                                            <li><b>Cloud :</b>AWS(Lightsail)</li>
+                                            <li><b>Database:</b> MariaDB</li>
+                                            <li><b>WAS:</b> Apache Tomcat10</li>
+                                        </ul>
 
-				<!-- diary -->
-			 	<div class="container portfolio-item filter-diary" style="margin-bottom: 70px;">
-			        <div class="row gy-4">
-			          <div class="col-lg-6">
-			            <div class="portfolio-wrap">
-			            	<img src="/assets/img/portfolio/diary로그인.png" class="img-fluid" alt="">
-			              	<img src="/assets/img/portfolio/diary메인.png" class="img-fluid" alt="">
-							<img src="/assets/img/portfolio/diary작성.png" class="img-fluid" alt="">
-			              	<div class="portfolio-info">
-			              		<a href="http://13.124.239.48/diary/loginForm.jsp" target="_blank" title="Portfolio Details"  style="display: block; width: 100%; height: 100%;">
-									<i class="bx bx-link"></i>
-								</a>
-		              		</div>
-		             	 </div>
-			          </div>
-			          <div class="col-lg-4">
-			            <div class="portfolio-info">
-			              <h3><strong style="font-size: 35px">4.</strong>&nbsp;DIARY</h3>
-			            </div>
-			            <div class="portfolio-description">
-			                <p><b>Spring Model2 DIARY</b></p>
-			              	<hr> 
-			              	<div style="margin-bottom: 25px">
-								<a href="http://13.124.239.48/diary/loginForm.jsp" class="btn btn-info" target="_blank">Web</a>
-				                <a href="https://github.com/Guinsu/diary-project" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
-				                <button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/diary_ERD.png')">ERD</button>
-			              	</div>
-			              	<b>개발 환경</b><br>
-			                <ul>
-			                	<li>MariaDB(10.5)
-			                	Apache Tomcat
-			                	JDK(17.0.6)
-			                	Java, HTML, CSS, SQL
-			                	JDBC, Spring, MyBatis
-			                	Bootstrap, jQuery, Lombok
-			                	STS4, HeidiSQL
-			                	Git</li>
-			                </ul>
-			                
-			                <hr>
-			                <b>서비스 환경</b><br>
-			                <ul>
-			                	<li>Ubuntu(18.04.1)
-			                	MariaDB(10.5)
-			                	AWS</li>
-			                </ul>
-			                
-			                <hr>
-			                <b>프로젝트 내용</b><br>
-			                <ul>
-			                	<li>기간 : 2023.12.01~2023.12.20 , 2024.01.24 ~ 2024.01.31</li>
-			                	<li>
-			                		내용 : Spring, model2 구조 수업 이후 수업내용을 바탕으로 Spring 구조의 Diary 구현
-			                	</li>
-			                </ul>
-			                <hr>
-							<b>기능</b><br>
-			                <ul>
-			                	<li>
-			                		<span>로그인/로그아웃/회원가입</span>
-			                		<ul>
-			                			<li>세션을 사용한 로그인/로그아웃</li>
-								<li>회원가입, 회원탈퇴 기능</li>
-			                		</ul>
-			                	</li>
-			                	<li>
-			                		<span>캘린더</span>
-			                		<ul>
-			                			<li>달력에 일 별 스케줄 내역 조회 </li>
-			                		</ul>
-			                	</li>
-			                	<li>
-			                		<span>공지사항 CRUD</span>
-			                		<ul>
-			                			<li>공지사항 CRUD</li>
-			                			<li>게시글 리스트 조회 시 페이징</li>
-								<li>공지사항에 고객이 댓글 작성 가능</li>
-								<li>비밀댓글 선택 시 해당 고객과 직원만 보기 가능</li>
-			                		</ul>
-			                	</li>
-			                </ul>
-			            </div>
-			            </div>
-			          </div>
-			        </div>
-					
-					<!-- peti -->
-					<div class="container portfolio-item filter-peti">
-						<div class="row gy-4">
-						  <div class="col-lg-6">
-							<div class="portfolio-wrap">
-								<img src="/assets/img/portfolio/메인 페이지.PNG" class="img-fluid" alt="" style="width: 100%; height: 400px;">
-								<img src="assets/img/portfolio/반려동물 등록 페이지.PNG" class="img-fluid" alt="" style="width: 100%; height: 400px;">
-								<img src="assets/img/portfolio/검사결과 페이지.PNG" class="img-fluid" alt="" style="width: 100%; height: 400px;">
+                                        <hr />
+                                        <b>프로젝트 내용</b><br />
+                                        <ul>
+                                            <li>기간 : 2024.06.24 ~ 2024.07.26 (5주)</li>
+                                            <li>인원 : 4명</li>
+                                            <li>
+                                                내용 : 고령화 사회로 인해 실버타운의 수가 증가하면서, 직원들이 효과적으로 업무를 관리하고
+                                                협업할 수 있고 업무 효율성을 높이기 위한 그룹웨어 개발
+                                            </li>
+                                        </ul>
+                                        <hr />
+                                        <b>담당 기능</b><br />
+                                        <ul>
+                                            <li>
+                                                <span>로그인 세션 유지</span>
+                                                <ul>
+                                                    <li>Interceptor로 페이지 이동 시 로그인 상태 유지</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-top: 10px">
+                                                <span>직원관리</span>
+                                                <ul>
+                                                    <li>직위/부서 선택 시 자동 사원번호 생성</li>
+                                                    <li>비밀번호 수정 시 기존 비밀번호와 다른 비밀번호로만 변경 가능</li>
+                                                    <li>부서명, 직위, 사원번호로 직원 정보 검색 및 조회</li>
+                                                    <li>퇴사 직원의 정보를 논리적으로 삭제</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-top: 10px">
+                                                <span>쪽지관리</span>
+                                                <ul>
+                                                    <li>직원 검색 후 쪽지 전송 및 WebSocket을 이용한 실시간 알람 기능 구현</li>
+                                                    <li>받은 쪽지, 보낸 쪽지 목록 조회 및 상세 열람</li>
+                                                    <li>삭제 시 실제 데이터는 보존, 인터페이스에서만 비표시</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-top: 10px">
+                                                <span>직원 출퇴근 관리</span>
+                                                <ul>
+                                                    <li>출퇴근 버튼 클릭 시 자동으로 시각 기록 및 상태 업데이트</li>
+                                                    <li>관리자의 직원 출퇴근 기록 조회 기능 구현</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-top: 10px">
+                                                <span>공지사항</span>
+                                                <ul>
+                                                    <li>등급/종류 선택, 첨부파일 추가 기능 구현</li>
+                                                    <li>공지사항 필독, 이벤트, 일반으로 조회</li>
+                                                    <li>제목, 내용, 첨부파일 수정, 삭제 가능</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-								<div class="portfolio-info">
-									<a href="http://43.203.40.210/project/home" target="_blank" title="Portfolio Details"><i class="bx bx-link"></i></a>
-								</div>
-							  </div>
-						  </div>
-						  <div class="col-lg-4">
-							<div class="portfolio-info">
-							  <h3><strong style="font-size: 35px">5.</strong>&nbsp;동물(강아지,고양이) 성격검사 </h3>
-							</div>
-							<div class="portfolio-description">
-								<p><b>Express.js</b></p>
-								  <hr> 
-								  <div style="margin-bottom: 25px">
-									<a href="https://github.com/Kiminsu1996/peti_project" class="btn btn-dark" role="button" style="text-decoration: none;" target="_blank">GitHub</a>
-									<button type="button" class="btn btn-secondary" onclick="window.open('assets/img/portfolio/peti_ERD.png')">ERD</button>
-								  </div>
-								  <b>개발 환경</b><br>
-								<ul>
-									<li>PostgreSQL(8.11)
-									MongoDB(6.3)
-									socket.io(4.7)
-									Express.js(4.18)
-									HTML, CSS, JavaScript
-									JsonWebToken(9.0)GitHub
-									</li>
-								</ul>
-								
-								<hr>
-								<b>서비스 환경</b><br>
-								<ul>
-									<li>Node.js(20.1),
-									AWS</li>
-								</ul>
-								
-								<hr>
-								<b>프로젝트 내용</b><br>
-								<ul>
-									<li>기간 : 2023.12.01 ~ 2024.02.24 </li>
-									<li>
-										내용 : RESTful API를 사용하여 동물의 성격을 분석하고 결과를 제공하는 서비스 개발 했습니다.<br>
-									</li>
-								</ul>
-								<hr>
-								<b>기능</b><br>
-								<ul>
-									<li>
-										<span>로그인/로그아웃/회원가입</span>
-										<ul>
-											<li>세션을 사용한 로그인/로그아웃</li>
-									<li>회원가입, 회원탈퇴 기능</li>
-										</ul>
-									</li>
-									<li>
-										<span>캘린더</span>
-										<ul>
-											<li>달력에 일 별 스케줄 내역 조회 </li>
-										</ul>
-									</li>
-									<li>
-										<span>공지사항 CRUD</span>
-										<ul>
-											<li>공지사항 CRUD</li>
-											<li>게시글 리스트 조회 시 페이징</li>
-									<li>공지사항에 고객이 댓글 작성 가능</li>
-									<li>비밀댓글 선택 시 해당 고객과 직원만 보기 가능</li>
-										</ul>
-									</li>
-								</ul>
-							</div>
-							</div>
-						  </div>
-						</div>
+                        <!-- 종합동물병원 ERP (atti)-->
+                        <div class="container portfolio-item filter-booking" style="margin-bottom: 70px">
+                            <div class="row gy-4">
+                                <div class="col-lg-6">
+                                    <div class="portfolio-wrap">
+                                        <!--사진 저장-->
+                                        <img src="/assets/img/portfolio/atti메인.png" class="img-fluid" alt="" />
+                                        <img src="/assets/img/portfolio/atti직원등록.png" class="img-fluid" alt="" />
+                                        <img src="/assets/img/portfolio/atti직원관리.png" class="img-fluid" alt="" />
 
-			    </div>
-	        </div>
-	    </section>
+                                        <div class="portfolio-info">
+                                            <a
+                                                href="http://13.124.239.48/atti/view/loginForm.jsp"
+                                                target="_blank"
+                                                title="Portfolio Details"
+                                                style="display: block; width: 100%; height: 100%"
+                                                ><i class="bx bx-link"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
 
-		<div>여기에 더 추가할 내용은..... 부트캠프에서 진행했던 프젝트들... 넣어보기 
-			그리고 자기소개서 내용도 수정하기... 부캠내용도 넣어서 1년정도 공부했다 < 이런 내용으로 진행
-		</div>
-	    <!-- End Portfolio Section -->
+                                <div class="col-lg-4">
+                                    <div class="portfolio-info">
+                                        <h3><strong style="font-size: 35px">2.</strong>&nbsp;종합 동물병원 ERP</h3>
+                                    </div>
+                                    <div class="portfolio-description">
+                                        <br />
+                                        <p><b>Model2 구조 </b></p>
+                                        <hr />
+                                        <div style="margin-bottom: 25px">
+                                            <a href="http://13.124.239.48/atti/view/loginForm.jsp" class="btn btn-info" target="_blank"
+                                                >Web</a
+                                            >
+                                            <a
+                                                href="https://github.com/GDJ80-TeamC/semi-atti"
+                                                class="btn btn-dark"
+                                                role="button"
+                                                style="text-decoration: none"
+                                                target="_blank"
+                                                >GitHub</a
+                                            >
+                                            <button
+                                                type="button"
+                                                class="btn btn-secondary"
+                                                onclick="window.open('assets/img/portfolio/GDJ80_teamC_ERD다이어그램.png')"
+                                            >
+                                                ERD
+                                            </button>
+                                            <a
+                                                href="https://docs.google.com/spreadsheets/d/1DeBwBD5Q28pRl3URFegynNrOsLrvNWdGKIklqSJgjkA/edit?gid=0#gid=0"
+                                                class="btn btn-warning"
+                                                >document</a
+                                            >
+                                        </div>
+                                        <b>개발 환경</b><br />
+                                        <ul>
+                                            <li><b>Language:</b> HTML5, CSS3, JAVA, SQL</li>
+                                            <li><b>Database:</b> MariaDB</li>
+                                            <li><b>WAS:</b> Apache Tomcat10</li>
+                                            <li><b>OS:</b> Windows 11</li>
+                                            <li><b>Tool:</b> Eclipse, HeidiSQL</li>
+                                        </ul>
 
-  </main><!-- End #main -->
+                                        <hr />
+                                        <b>서비스 환경</b><br />
+                                        <ul>
+                                            <li><b>Cloud :</b>AWS(Lightsail)</li>
+                                            <li><b>Database:</b> MariaDB</li>
+                                            <li><b>WAS:</b> Apache Tomcat10</li>
+                                        </ul>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+                                        <hr />
+                                        <b>프로젝트 내용</b><br />
+                                        <ul>
+                                            <li>기간 : 2024.04.29 ~ 2024.05.31 (5주)</li>
+                                            <li>인원 : 4명</li>
+                                            <li>
+                                                내용 : 반려 동물 시장이 증가함에 따라 의료 서비스를 제공하는 동물 병원의 필요성이 높아져
+                                                종합 동물 병원의 ERP시스템 구현
+                                            </li>
+                                        </ul>
+                                        <hr />
+                                        <b>담당 기능</b><br />
+                                        <ul>
+                                            <li>
+                                                <span>로그인 세션 유지</span>
+                                                <ul>
+                                                    <li>Session을 사용하여 로그인 상태를 유지</li>
+                                                    <li>페이지 로드 시 세션을 확인하여 로그인 상태 검증</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-top: 10px">
+                                                <span>직원관리</span>
+                                                <ul>
+                                                    <li>신규 직원(의사/간호사) 등록 기능 구현</li>
+                                                    <li>비밀번호 수정 시 기존 비밀번호와 다른 비밀번호로만 변경 가능하도록 설정</li>
+                                                    <li>직원 이름으로 직원 정보 검색 및 조회 기능 구현</li>
+                                                    <li>퇴사 직원의 정보를 논리적으로 삭제하여 데이터 보존</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-top: 10px">
+                                                <span>입원등록</span>
+                                                <ul>
+                                                    <li>환자의 입원 시 입원 호실 등록(호실 입원 내용)</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+                        <!-- SHOP -->
+                        <div class="container portfolio-item filter-shop" style="margin-bottom: 70px">
+                            <div class="row gy-4">
+                                <div class="col-lg-6">
+                                    <div class="portfolio-wrap">
+                                        <img
+                                            src="/assets/img/portfolio/shop메인.png"
+                                            class="img-fluid"
+                                            alt=""
+                                            style="width: 100%; height: 350px"
+                                        />
+                                        <img
+                                            src="/assets/img/portfolio/shop관리자메인.png"
+                                            class="img-fluid"
+                                            alt=""
+                                            style="width: 100%; height: 350px"
+                                        />
+                                        <img
+                                            src="/assets/img/portfolio/shop관리자결제.png"
+                                            class="img-fluid"
+                                            alt=""
+                                            style="width: 100%; height: 350px"
+                                        />
+                                        <div class="portfolio-info">
+                                            <a
+                                                href="http://13.124.239.48/shop/index.jsp"
+                                                target="_blank"
+                                                title="Portfolio Details"
+                                                style="display: block; width: 100%; height: 100%"
+                                            >
+                                                <i class="bx bx-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
 
-</body>
+                                <div class="col-lg-4">
+                                    <div class="portfolio-info">
+                                        <h3><strong style="font-size: 35px">3.</strong>&nbsp;SHOP</h3>
+                                    </div>
+                                    <div class="portfolio-description">
+                                        <br />
+                                        <p><b>Model1 구조</b></p>
+                                        <hr />
+                                        <div style="margin-bottom: 25px">
+                                            <a href="http://13.124.239.48/shop/index.jsp" class="btn btn-info" target="_blank">Web</a>
+                                            <a
+                                                href="https://github.com/Guinsu/shop"
+                                                class="btn btn-dark"
+                                                role="button"
+                                                style="text-decoration: none"
+                                                target="_blank"
+                                                >GitHub</a
+                                            >
+                                            <button
+                                                type="button"
+                                                class="btn btn-secondary"
+                                                onclick="window.open('assets/img/portfolio/shop_ERD.png')"
+                                            >
+                                                ERD
+                                            </button>
+                                        </div>
+                                        <b>개발 환경</b><br />
+                                        <ul>
+                                            <li><b>Language:</b> HTML5, CSS3, JAVA, SQL</li>
+                                            <li><b>Database:</b> MariaDB</li>
+                                            <li><b>WAS:</b> Apache Tomcat10</li>
+                                            <li><b>OS:</b> Windows 11</li>
+                                            <li><b>Tool:</b> Eclipse, HeidiSQL</li>
+                                        </ul>
 
+                                        <hr />
+                                        <b>서비스 환경</b><br />
+                                        <ul>
+                                            <li><b>Cloud :</b>AWS(Lightsail)</li>
+                                            <li><b>Database:</b> MariaDB</li>
+                                            <li><b>WAS:</b> Apache Tomcat10</li>
+                                        </ul>
+
+                                        <hr />
+                                        <b>프로젝트 내용</b><br />
+                                        <ul>
+                                            <li>기간 : 2024.04.04 ~ 2024.04.26 (3주)</li>
+                                            <li>인원 : 1명</li>
+                                            <li>내용 : 요즘 아이들에게 인기 만점인 캐치 티니핑 애니메이션으로 만든 굿즈 쇼핑몰 구현</li>
+                                        </ul>
+
+                                        <hr />
+                                        <b>고객 기능</b><br />
+                                        <ul>
+                                            <li>
+                                                <span>회원 관리</span>
+                                                <ul>
+                                                    <li>회원가입, 회원정보 수정(아이디, 비밀번호, 성별), 회원탈퇴 기능 구현</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-top: 10px">
+                                                <span>제품 관리</span>
+                                                <ul>
+                                                    <li>장바구니 추가, 취소 기능 구현</li>
+                                                    <li>제품 상세보기, 제품 주문 기능 구현</li>
+                                                    <li>제품 구매 완료가 되면 상품후기 입력과 별점 입력 가능</li>
+                                                    <li>등록한 상품후기 삭제 기능 구현</li>
+                                                    <li>주문내역 조회 가능</li>
+                                                    <li>주문 진행 상태에 확인 가능 <br />(결제완료, 배송중, 배송완료)</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+                                        <b>관리자 기능</b><br />
+                                        <ul>
+                                            <li>
+                                                <span>사원관리</span>
+                                                <ul>
+                                                    <li>직원별로 상품등록 버튼의 활성화/비활성화 <br />(ON/OFF) 제어 기능 구현</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-top: 10px">
+                                                <span>상품관리 기능</span>
+                                                <ul>
+                                                    <li>상품 등록,삭제, 상세 기능 구현</li>
+                                                    <li>상품 배송정보 조회 기능 구현</li>
+                                                </ul>
+                                            </li>
+                                            <li style="margin-top: 10px">
+                                                <span>카테고리 기능</span>
+                                                <ul>
+                                                    <li>카테고리 추가,수정, 삭제 기능 구현</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- diary -->
+                        <div class="container portfolio-item filter-diary" style="margin-bottom: 70px">
+                            <div class="row gy-4">
+                                <div class="col-lg-6">
+                                    <div class="portfolio-wrap">
+                                        <img src="/assets/img/portfolio/diary로그인.png" class="img-fluid" alt="" />
+                                        <img src="/assets/img/portfolio/diary메인.png" class="img-fluid" alt="" />
+                                        <img src="/assets/img/portfolio/diary작성.png" class="img-fluid" alt="" />
+                                        <div class="portfolio-info">
+                                            <a
+                                                href="http://13.124.239.48/diary/loginForm.jsp"
+                                                target="_blank"
+                                                title="Portfolio Details"
+                                                style="display: block; width: 100%; height: 100%"
+                                            >
+                                                <i class="bx bx-link"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="portfolio-info">
+                                        <h3><strong style="font-size: 35px">4.</strong>&nbsp;DIARY</h3>
+                                    </div>
+                                    <div class="portfolio-description">
+                                        <p><b>Spring Model2 DIARY</b></p>
+                                        <hr />
+                                        <div style="margin-bottom: 25px">
+                                            <a href="http://13.124.239.48/diary/loginForm.jsp" class="btn btn-info" target="_blank">Web</a>
+                                            <a
+                                                href="https://github.com/Guinsu/diary-project"
+                                                class="btn btn-dark"
+                                                role="button"
+                                                style="text-decoration: none"
+                                                target="_blank"
+                                                >GitHub</a
+                                            >
+                                            <button
+                                                type="button"
+                                                class="btn btn-secondary"
+                                                onclick="window.open('assets/img/portfolio/diary_ERD.png')"
+                                            >
+                                                ERD
+                                            </button>
+                                        </div>
+                                        <b>개발 환경</b><br />
+                                        <ul>
+                                            <li><b>Language:</b> HTML5, CSS3, JAVA, SQL</li>
+                                            <li><b>Database:</b> MariaDB</li>
+                                            <li><b>WAS:</b> Apache Tomcat10</li>
+                                            <li><b>OS:</b> Windows 11</li>
+                                            <li><b>Tool:</b> Eclipse, HeidiSQL</li>
+                                        </ul>
+
+                                        <hr />
+                                        <b>서비스 환경</b><br />
+                                        <ul>
+                                            <li><b>Cloud :</b>AWS(Lightsail)</li>
+                                            <li><b>Database:</b> MariaDB</li>
+                                            <li><b>WAS:</b> Apache Tomcat10</li>
+                                        </ul>
+                                        <hr />
+                                        <b>프로젝트 내용</b><br />
+                                        <ul>
+                                            <li>기간 : 2024.03.28 ~ 2024.04.03</li>
+                                            <li>내용 : 일상의 생각과 경험들을 기록하고 싶어서, 나만의 다이어리 시스템 구현</li>
+                                        </ul>
+                                        <hr />
+                                        <b>기능</b><br />
+                                        <ul>
+                                            <li>
+                                                <span>회원기능</span>
+                                                <ul>
+                                                    <li>세션을 사용한 로그인/로그아웃 기능 구현</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>일기 기능</span>
+                                                <ul>
+                                                    <li>일기 작성, 수정, 삭제 기능 구현</li>
+                                                    <li>달력에 일 별 스케줄 내역 조회</li>
+                                                    <li>작성된 일기에 댓글 작성, 수정 기능 구현</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>점심 메뉴 기능</span>
+                                                <ul>
+                                                    <li>점심 메뉴 조회, 수정 기능 구현</li>
+                                                    <li>선택된 점심 메뉴의 통계 조회 기능 구현</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- peti -->
+                        <div class="container portfolio-item filter-peti">
+                            <div class="row gy-4">
+                                <div class="col-lg-6">
+                                    <div class="portfolio-wrap">
+                                        <img
+                                            src="/assets/img/portfolio/메인 페이지.PNG"
+                                            class="img-fluid"
+                                            alt=""
+                                            style="width: 100%; height: 400px"
+                                        />
+                                        <img
+                                            src="assets/img/portfolio/반려동물 등록 페이지.PNG"
+                                            class="img-fluid"
+                                            alt=""
+                                            style="width: 100%; height: 400px"
+                                        />
+                                        <img
+                                            src="assets/img/portfolio/검사결과 페이지.PNG"
+                                            class="img-fluid"
+                                            alt=""
+                                            style="width: 100%; height: 400px"
+                                        />
+
+                                        <div class="portfolio-info">
+                                            <a href="http://43.203.40.210/project/home" target="_blank" title="Portfolio Details"
+                                                ><i class="bx bx-link"></i
+                                            ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="portfolio-info">
+                                        <h3><strong style="font-size: 35px">5.</strong>&nbsp;동물(강아지,고양이) 성격검사</h3>
+                                    </div>
+                                    <div class="portfolio-description">
+                                        <p><b>Express.js</b></p>
+                                        <hr />
+                                        <div style="margin-bottom: 25px">
+                                            <a
+                                                href="https://github.com/Kiminsu1996/peti_project"
+                                                class="btn btn-dark"
+                                                role="button"
+                                                style="text-decoration: none"
+                                                target="_blank"
+                                                >GitHub</a
+                                            >
+                                            <button
+                                                type="button"
+                                                class="btn btn-secondary"
+                                                onclick="window.open('assets/img/portfolio/peti_ERD.png')"
+                                            >
+                                                ERD
+                                            </button>
+                                        </div>
+                                        <b>개발 환경</b><br />
+                                        <ul>
+                                            <li><b>Language:</b> JavaScript, SQL</li>
+                                            <li><b>Database:</b> PostgreSQL, MongoDB</li>
+                                            <li><b>WAS:</b> Node.js</li>
+                                            <li><b>OS:</b> Windows 11</li>
+                                            <li><b>Tool:</b> VSCode</li>
+                                        </ul>
+
+                                        <hr />
+                                        <b>서비스 환경</b><br />
+                                        <ul>
+                                            <li><b>Cloud :</b>AWS(EC2)</li>
+                                            <li><b>Database:</b> PostgreSQL, MongoDB</li>
+                                            <li><b>WAS:</b> Node.js</li>
+                                        </ul>
+                                        <hr />
+                                        <b>프로젝트 내용</b><br />
+                                        <ul>
+                                            <li>기간 : 2023.12.01 ~ 2024.02.24</li>
+                                            <li>
+                                                내용 : RESTful API를 사용하여 강아지와 고양이의 <br />성격을 분석하고 결과를 제공하는 서비스
+                                                개발 했습니다.<br />
+                                            </li>
+                                        </ul>
+                                        <hr />
+                                        <b>기능</b><br />
+                                        <ul>
+                                            <li>
+                                                <span>반려동물 정보 기능</span>
+                                                <ul>
+                                                    <li>반려동물 이름, 종류 입력</li>
+                                                    <li>반려동물 이미지 등록 및 AWS S3에 저장</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>반려동물 성격 검사</span>
+                                                <ul>
+                                                    <li>선택된 반려동물의 종류(강아지 또는 고양이)에 맞춘 20개의 질문 제공</li>
+                                                    <li>각 질문에 대해 가중치를 선택하여 반려동물의 성격 유형을 분석</li>
+                                                    <li>성격 유형 설명과 환상의 케미/환장하는 케미 정보 제공</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>그룹 채팅</span>
+                                                <ul>
+                                                    <li>PETI 결과 유형에 따라 자동으로 채팅방 접속 <br />(총 16개 유형)</li>
+                                                    <li>채팅방 참여 인원 최대 20명, 1시간 후 자동 로그아웃</li>
+                                                    <li>실시간 채팅 기능 및 이전 채팅 기록 무한 스크롤로 확인 가능</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- End Portfolio Section -->
+        </main>
+        <!-- End #main -->
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/vendor/typed.js/typed.umd.js"></script>
+        <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
